@@ -5,7 +5,7 @@ call_user_func(function()
     /**
      * Temporary variables
      */
-    $extensionKey = 'WirHelfenIndien_bootstrap';
+    $extensionKey = 'kreis-306_bootstrap';
 
     /**
      * Default TypoScript for TsvWartenbergBootstrap
@@ -13,6 +13,6 @@ call_user_func(function()
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,
         'Configuration/TypoScript',
-        'WirHelfenIndien-bootstrap'
+        'kreis-306-bootstrap'
     );
 });

@@ -9,7 +9,7 @@
 ##############
 page {
     includeCSS {
-        theme = EXT:WirHelfenIndien_bootstrap/Resources/Public/Scss/Theme/theme.scss
+        theme = EXT:kreis-306_bootstrap/Resources/Public/Scss/Theme/theme.scss
         }
 
     includeJSLibs {
@@ -25,7 +25,7 @@ page {
     }
 
     includeJSFooter {
-        WirHelfenIndien_bootstrap_scripts = EXT:WirHelfenIndien_bootstrap/Resources/Public/JavaScript/Dist/scripts.js
+        kreis-306_bootstrap_scripts = EXT:kreis-306_bootstrap/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
 

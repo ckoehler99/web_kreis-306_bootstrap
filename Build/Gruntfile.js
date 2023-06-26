@@ -13,7 +13,7 @@ module.exports = function(grunt) {
             js: '<%= paths.resources %>Public/JavaScript/'
         },
         banner: '/*!\n' +
-            ' * WirHelfenIndien-bootstrap v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+            ' * kreis-306-bootstrap v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
             ' * Copyright 2017-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
             ' * Licensed under the <%= pkg.license %> license\n' +
             ' */\n',

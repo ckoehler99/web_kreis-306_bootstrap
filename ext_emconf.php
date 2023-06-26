@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Extension Manager/Repository config file for ext "WirHelfenIndien_bootstrap".
+ * Extension Manager/Repository config file for ext "kreis-306_bootstrap".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'WirHelfenIndien-bootstrap',
+    'title' => 'kreis-306-bootstrap',
     'description' => '',
     'category' => 'templates',
     'constraints' => [
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'WirHelfenIndien\\WirHelfenIndien_bootstrap\\' => 'Classes',
+            'kreis-306\\kreis-306_bootstrap\\' => 'Classes',
         ],
     ],
     'state' => 'stable',
@@ -25,6 +25,6 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 1,
     'author' => 'Christian Köhler',
     'author_email' => 'ckoehler@outlook.com',
-    'author_company' => 'WirHelfenIndien',
+    'author_company' => 'kreis-306',
     'version' => '1.0.0',
 ];

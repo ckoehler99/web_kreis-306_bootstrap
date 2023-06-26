@@ -3,6 +3,6 @@
 #############
 RTE {
     default {
-        preset = WirHelfenIndien_bootstrap
+        preset = kreis-306_bootstrap
     }
 }

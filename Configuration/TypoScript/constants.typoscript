@@ -9,20 +9,20 @@
 ############
 page {
     logo {
-        file = EXT:WirHelfenIndien_bootstrap/Resources/Public/Images/logo.png
+        file = EXT:kreis-306_bootstrap/Resources/Public/Images/logo.png
         height = 95
         width = 125
-        alt = WirHelfenIndien
-        linktitle = WirHelfenIndien
+        alt = kreis-306
+        linktitle = kreis-306
         page.theme.breadcrumb.enable = 0
     }
     favicon {
-        file = EXT:WirHelfenIndien_bootstrap/Resources/Public/Icons/favicon.ico
+        file = EXT:kreis-306_bootstrap/Resources/Public/Icons/favicon.ico
     }
     fluidtemplate {
-        layoutRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Partials/Page/
-        templateRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:kreis-306_bootstrap/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:kreis-306_bootstrap/Resources/Private/Partials/Page/
+        templateRootPath = EXT:kreis-306_bootstrap/Resources/Private/Templates/Page/
     }
     
     theme {
@@ -34,7 +34,7 @@ page {
         copyright.enable = 0
         cookieconsent.cookie.expiryDays = 20
         copyright.enable = 1
-        copyright.text = <p><a href="/footer/impressum-des-WirHelfenIndiens">Impressum</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="/typo3">Login</a></p>
+        copyright.text = <p><a href="/footer/impressum-des-kreis-306s">Impressum</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="/typo3">Login</a></p>
     }
     
     page {
@@ -50,9 +50,9 @@ page {
 ##################
 plugin.bootstrap_package {
     view {
-        layoutRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Layouts/
-        partialRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Partials/
-        templateRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Templates/
+        layoutRootPath = EXT:kreis-306_bootstrap/Resources/Private/Layouts/
+        partialRootPath = EXT:kreis-306_bootstrap/Resources/Private/Partials/
+        templateRootPath = EXT:kreis-306_bootstrap/Resources/Private/Templates/
     }
 }
 
@@ -62,9 +62,9 @@ plugin.bootstrap_package {
 ########################
 plugin.bootstrap_package_contentelements {
     view {
-        layoutRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:WirHelfenIndien_bootstrap/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:kreis-306_bootstrap/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:kreis-306_bootstrap/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:kreis-306_bootstrap/Resources/Private/Templates/ContentElements/
     }
 }
 

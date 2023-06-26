@@ -1,5 +1,5 @@
 {
-    "name": "WirHelfenIndien/WirHelfenIndien-bootstrap",
+    "name": "kreis-306/kreis-306-bootstrap",
     "type": "typo3-cms-extension",
     "description": "",
     "homepage": "https://schritt-fuer-schritt-ev.de/",
@@ -10,12 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "WirHelfenIndien\\WirHelfenIndienBootstrap\\": "Classes/"
+            "kreis-306\\kreis-306Bootstrap\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "WirHelfenIndien_bootstrap"
+            "extension-key": "kreis-306_bootstrap"
         }
     }
 }
