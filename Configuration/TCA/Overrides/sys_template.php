@@ -8,11 +8,11 @@ call_user_func(function()
     $extensionKey = 'kreis-306_bootstrap';
 
     /**
-     * Default TypoScript for TsvWartenbergBootstrap
+     * Default TypoScript for kreis-306_bootstrap
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,
         'Configuration/TypoScript',
-        'kreis-306-bootstrap'
+        'kreis-306_bootstrap'
     );
 });

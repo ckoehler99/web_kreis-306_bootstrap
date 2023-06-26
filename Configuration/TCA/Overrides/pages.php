@@ -8,11 +8,11 @@ call_user_func(function()
     $extensionKey = 'kreis-306_bootstrap';
 
     /**
-     * Default PageTS for TsvWartenbergBootstrap
+     * Default PageTS for kreis-306_bootstrap
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
         $extensionKey,
         'Configuration/TsConfig/Page/All.tsconfig',
-        'kreis-306-bootstrap'
+        'kreis-306_bootstrap'
     );
 });
