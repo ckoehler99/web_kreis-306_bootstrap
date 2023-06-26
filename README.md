@@ -1,8 +1,9 @@
-Sitepackage for the project "schritt-fuer-schritt-ev.de-bootstrap"
+Sitepackage for the project "kreis-306.de-bootstrap"
 ==============================================================
 
-Typo3 templates and layout for schritt-fuer-schritt-ev.de website
+Typo3 templates and layout for kreis-306.com website
 
 Github Actions publish changes in main branch via SSH
 
-[website schritt-fuer-schritt-ev.de](http://schritt-fuer-schritt-ev.de/) 
+[website kreis-306.de](http://kreis-306.de/) 
+[website kreis-306.com](http://kreis-306.com/) 
