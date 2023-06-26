@@ -3,24 +3,6 @@
 //
 $primary: #014876; // dunkles metallic blau
 $secondary: #72bf44; // gras grün
-
-$footer-sections: () !default;
-$footer-sections: map-merge(
-                (
-                        content: (
-                                background:		$secondary,
-                                color:			  $black,
-                                link-color:		$primary
-                        ),
-                        meta: (
-                                background:		$secondary,
-                                color:			  $black,
-                                link-color:		$primary
-                        )
-                ),
-                $footer-sections
-);
-
 //
 // Color system
 // --------------------------------------------------
@@ -75,3 +57,20 @@ $theme-colors: (
     'dark':                         $dark,
     'darker':                       $darker,
 ) !default;
+
+$footer-sections: () !default;
+$footer-sections: map-merge(
+                (
+                        content: (
+                                background:		$secondary,
+                                color:			  $black,
+                                link-color:		$primary
+                        ),
+                        meta: (
+                                background:		$secondary,
+                                color:			  $black,
+                                link-color:		$primary
+                        )
+                ),
+                $footer-sections
+);
